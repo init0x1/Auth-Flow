@@ -1,0 +1,30 @@
+{
+  "name": "auth-flow",
+  "version": "1.0.0",
+  "description": "AuthFlow is a Node.js web application that implements user authentication and session management using Express.js, MongoDB, and secure cookies. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xAbdoAli/Auth-Flow.git"
+  },
+  "author": "0xAbdoAli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xAbdoAli/Auth-Flow/issues"
+  },
+  "homepage": "https://github.com/0xAbdoAli/Auth-Flow#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.0.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.21"
+  }
+}
